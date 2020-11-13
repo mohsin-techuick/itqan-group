@@ -1,0 +1,79 @@
+*{
+    color: #004C81;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: white
+}
+.container{
+    max-height: 100vh !important;
+}
+/* left side */
+.feature-text{
+    border: none
+}
+.feature-text h1::before{
+    content: "▶️";
+    color: #D6A85B;
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    left: -34px;
+    top: -5px
+}
+.feature-text h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.4rem;
+    position: relative;
+}
+.feature-text h1 span{
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.feature-text p{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    width: 74%;
+
+}
+.feature-list ul{
+   margin: 0;
+   padding: 0
+}
+
+.feature-list ul li::before{
+    content: "▶️";
+    color: #D6A85B;
+    list-style-type: none;
+    font-size: 30px
+}
+.feature-list ul li{
+    list-style-type: none
+}
+.feature-list ul li a{
+    color: #004C81;
+    font-weight: bold;
+    font-size: 1.4rem;
+    position: relative;
+    top: -5px;
+    font-family: monospace;
+    font-style: normal;
+    left: 7px
+}
+/* right side */
+/* .feature-image{
+    /* border: 1px solid red;
+    text-align: center;
+    height: 100vh;
+    background: url("/images/feature.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain; */
+/* } */
+.feature-image img{
+    height: 120vh;
+}
