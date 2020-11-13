@@ -13,7 +13,7 @@ body{
     border: none
 }
 .feature-text h1::before{
-    content: "▶️";
+    content: "\25B6";
     color: #D6A85B;
     position: absolute;
     font-weight: 900;
@@ -44,7 +44,7 @@ body{
 }
 
 .feature-list ul li::before{
-    content: "▶️";
+    content: "\25B6";
     color: #D6A85B;
     list-style-type: none;
     font-size: 30px
