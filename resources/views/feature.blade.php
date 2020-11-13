@@ -13,11 +13,11 @@
             </div>
             <div class="feature-list">
                 <ul>
-                    <li><a href="">Optimism</a></li>
-                    <li><a href="">Persistance</a></li>
-                    <li><a href="">Vision</a></li>
-                    <li><a href="">Innovativess</a></li>
-                    <li><a href="">Focus</a></li>
+                    <li><a href="#">Optimism</a></li>
+                    <li><a href="#">Persistance</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Innovativess</a></li>
+                    <li><a href="#">Focus</a></li>
                 </ul>
             </div>
         </div>
