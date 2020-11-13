@@ -5,8 +5,8 @@
 @section('content')
 
 <div class="container">
-    <div class="row" style="width:80%; margin-left:auto; margin-right:auto">
-        <div class="col-md-6">
+    <div class="row" style="width:80%;margin-left:auto;margin-right:auto">
+        <div class="col-md-4">
             <div class="feature-text pt-3">
                 <img src="{{asset("images/arrow.png")}}">
                 <h1> <span>BEST<span>FEATURES </h1>
@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-8">
             <div class="feature-image pt-3 text-right">
-                <img src="{{asset("images/feature.png")}}" alt="feature image" width="100%">
+                <img src="{{asset("images/feature.png")}}" alt="feature image">
             </div>
         </div>
     </div>
