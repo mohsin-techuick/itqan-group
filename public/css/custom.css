@@ -12,7 +12,9 @@ body{
 .feature-text{
     width: 85%;
 }
-.feature-text img{
+.feature-text h1::before{
+    content: "\25B6";
+    color: #D6A85B;
     position: absolute;
     height: 25px;
     width: 25px;
@@ -32,17 +34,20 @@ body{
     margin-bottom: 20px;
 }
 .feature-text p{
-    font-size: 0.9rem;
-    line-height: 1.5;
-    font-weight: 600;
-    width: 74%;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
 }
 .feature-list ul{
    margin: 0;
    padding: 0
 }
-.feature-list ul li:first-child{
-    margin-top: 35px;
+
+.feature-list ul li::before{
+    content: "\25B6";
+    color: #D6A85B;
+    list-style-type: none;
+    font-size: 30px
 }
 .feature-list ul li{
     list-style-type: none;
