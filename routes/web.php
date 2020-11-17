@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('feature', function () {
     return view('feature');
 });
+Route::get('why-choose-us', function () {
+    return view('why_choose_us');
+});
